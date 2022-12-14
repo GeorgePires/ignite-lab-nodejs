@@ -1,6 +1,8 @@
+import { Content } from './content';
+
 export interface NotificationData {
   recipientId: string;
-  content: string;
+  content: Content;
   category: string;
   readAt?: Date | null;
   createAt: Date;
@@ -20,11 +22,11 @@ export class Notification {
     return this.data.recipientId;
   }
 
-  public set content(content: string) {
+  public set content(content: Content) {
     this.data.content = content;
   }
 
-  public get content(): string {
+  public get content(): Content {
     return this.data.content;
   }
 
