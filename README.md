@@ -1,5 +1,4 @@
-## Notifications Service - Ignite Lab | NodeJS
-<br>
+# Notifications Service - Ignite Lab | NodeJS
 
  ## 🚀 Tecnologias e Conceitos
 ```
@@ -37,8 +36,7 @@ npm run test
 npm run test:cov
 ```
 
-### 🔰 API Rotas
-<br>
+### 🔰 Notifications Service - Rotas
 
 ```bash
 # Swagger
