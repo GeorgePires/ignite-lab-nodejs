@@ -1,11 +1,19 @@
 ## Notifications Service - Ignite Lab | NodeJS
-
-<br>
-<div align="center">
-    <img alt="ignite-demo" src=".github/preview.png" width="95%">
-</div>
 <br>
 
+ ## 🚀 Tecnologias e Conceitos
+```
+- DDD – Domain-Driven Design
+- Jest
+- NestJS
+- Node.js
+- PostgreSQL
+- Prisma
+- Repository Pattern
+- SOLID
+- Swagger
+- TypeScript
+```
 ## ⚡ Instalando o Projeto
 
 ```bash
@@ -27,6 +35,29 @@ npm run start
 npm run test
 
 npm run test:cov
+```
+
+### 🔰 API Rotas
+<br>
+
+```bash
+# Swagger
+- http://localhost:3000/api
+```
+<div align="center">
+    <img alt="ignite-demo" src=".github/swagger.png">
+</div>
+<br>
+
+CreateNotificationBody
+
+```json
+
+    {
+        "content": "Nova solicitação de amizade",
+        "category": "social",
+        "recipientId": "UUID"
+    }
 ```
 
 ---
