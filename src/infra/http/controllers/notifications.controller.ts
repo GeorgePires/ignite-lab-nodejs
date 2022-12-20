@@ -37,7 +37,7 @@ export class NotificationsController {
     };
   }
 
-  @Get(' from/:recipientId')
+  @Get('from/:recipientId')
   async getFromRecipient(@Param('recipientId') recipientId: string) {
     const { notifications } = await this.getRecipientNotifications.execute({
       recipientId,
