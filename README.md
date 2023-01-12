@@ -12,6 +12,7 @@
 - SOLID
 - Swagger
 - TypeScript
+- Kafka 
 ```
 ## ⚡ Instalando o Projeto
 
