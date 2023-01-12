@@ -16,7 +16,9 @@ async function bootstrap() {
   });
 
   await app.listen(3000);
+  await app.startAllMicroservices();
 
+  // Swagger
   const config = new DocumentBuilder()
     .setTitle('Notifications Service')
     .setDescription('Notifications Service - API Documentation')
